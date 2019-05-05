@@ -1,6 +1,6 @@
 /* navigation bar */
 
-.nav-bar {
+/* .nav-bar {
   background: #181818;
   width: 60px;
   height: 100%;
@@ -34,11 +34,12 @@
   transition-duration: 0.5s;
   color: darkmagenta;
 }
+*/
 
 
-.nav-bar ul {
+.nav ul {
 position: absolute;
-bottom: 20px;
+bottom: 0px;
 width: 100%;
 display: block;
 padding: 0;
@@ -46,6 +47,7 @@ list-style: none;
 text-align: center;
 margin: 0;
 }
+
 
 
 li a {
@@ -61,5 +63,28 @@ li a:focus {
 transition-duration: 0.5s;
 color: darkmagenta;
 text-decoration: underline;
+} 
+
+header.mdl-layout__header.nav-header.is-casting-shadow {
+  background-color: #181818;
+  
+}
+
+.nav-title {
+  color: white;
+}
+
+.nav-title:focus,
+.nav-title:hover {
+  color: white;
+}
+
+
+.nav-title-sub{
+  color: #757575;
+}
+
+.nav-title-sub:hover{
+  color: #757575;
 }
 
