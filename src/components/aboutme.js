@@ -4,7 +4,7 @@ import { Container, Row, Col, Jumbotron } from "react-bootstrap";
 class About extends Component {
   render() {
     return (
-      <Container>
+      <Container className="about-page">
         <Row className="about-content">
           <Col>
             <Jumbotron>
@@ -14,7 +14,7 @@ class About extends Component {
                 for calling extra attention to featured content or information.
               </p>
             </Jumbotron>
-            ;
+            
           </Col>
           <Col>
             <Jumbotron>
@@ -24,7 +24,7 @@ class About extends Component {
                 for calling extra attention to featured content or information.
               </p>
             </Jumbotron>
-            ;
+            
             <Jumbotron className="jumbo-timeline">
               <h1>Hello, world!</h1>
               <p>
@@ -32,7 +32,7 @@ class About extends Component {
                 for calling extra attention to featured content or information.
               </p>
             </Jumbotron>
-            ;
+            
           </Col>
         </Row>
         <Row>
