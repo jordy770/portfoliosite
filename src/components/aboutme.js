@@ -14,10 +14,10 @@ class About extends Component {
             </div>
           </Cell>
         </Grid>
-        <Grid className="-helper">
-          <Cell col={5} className="-left">
+        <Grid>
+          <Cell col={5}>
             <div className="-me">
-              <h1>yeet</h1>
+              <h1>About me</h1>
               <p>
                 The alarm still oscillated, louder here, the rear wall dulling
                 the roar of the Villa bespeak a turning in, a denial of the
@@ -44,6 +44,7 @@ class About extends Component {
           </Cell>
           <Cell offset={2} col={5}>
             <div className="-skills">
+            <h1>Skills</h1>
               <p>
                 {" "}
                 The alarm still oscillated, louder here, the rear wall dulling
@@ -71,6 +72,7 @@ class About extends Component {
             </div>
             
             <div className="-timeline">
+            
               <p>
                 {" "}
                 It was chambered for .22 long rifle, and Case would’ve preferred

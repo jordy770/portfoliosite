@@ -78,14 +78,10 @@ $bl-color: #22bad9;
 .about {
   width: 80%;
   margin: 0 auto;
+  text-align: center;
 
-  &-title{
-    text-align: center;
-    margin-bottom: 5%
-  }
-
-  &-left{
-    
+  &-me{
+    margin-top: 10%;
   }
 
   &-skills{
@@ -94,6 +90,7 @@ $bl-color: #22bad9;
 
   h1{
     color: gray;
+    text-align: center;
   }  
 
 
