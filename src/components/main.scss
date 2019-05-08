@@ -1,3 +1,7 @@
+/* font-family: 'Righteous', cursive;
+font-family: 'Acme', sans-serif;
+font-family: 'Indie Flower', cursive; */
+
 body {
   /* fallback for old browsers */
   background: -webkit-linear-gradient(to top, #414345, #232526);
@@ -5,95 +9,78 @@ body {
   background: linear-gradient(to top, #414345, #232526);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   width: 100%;
-  height: 100%;
+  height: 100vh;
   overflow: hidden;
 }
 
-// .text-box {
-//   color: white;
-//   position: absolute;
-//   left: 10%;
-//   top: 50%;
-//   -ms-transform: translateY(-50%);
-//   transform: translateY(-50%);
-//   width: 50%;
-//   max-height: 90%;
-//   span {
-//     font-size: 65px;
-//     line-height: 4.5rem;
-//   }
-// }
-
-.profile-pic {
-  width: 75%;
-}
-
-.introtext-homepage {
-  margin-bottom: 4em;
-  margin-top: 6em;
+.title{
+  // background-color: green;
+  
   text-align: center;
+  height: 10vh;
+  line-height: 70px;
+  margin: 50px 0;
 }
 
-.person-wrapper {
-  margin-top: 7em;
-}
+.intro{
+  background: rgba(255, 255, 255, 0.29);
+  text-align: center;
+  padding: 8% 5%;
+  font-family: 'Indie Flower', cursive;
+  border-radius: 2em;
+  
+  h3{
+    font-family: 'Indie Flower', cursive;
+  }
 
+  p {
+    font-size: 20px
+  }
 
-p {
-  font-size: 25px;
-  color: gray !important;
-}
-
-.part1 {
-  margin-top: 4rem;
-}
-
-
-
-$bg-color: #333;
-$bl-color: #22bad9;
-
-.landing {
   a {
-    color: inherit;
+    margin: 10px 10px 0 10px;
+    background-color: #414345;
     &:hover {
-      background-color: $bl-color;
-      color: white;
-      text-decoration: none;
+      background-color:darkmagenta;
     }
   }
-  &-header {
+
+}
+
+.profile-pic {
+  width: 100%;
+  border-radius: 2em!important;
+}
+
+.landing-header {
     font-family: "Righteous", cursive;
-    margin-top: 5%;
-    margin-bottom: 10%;
     text-align: center;
     font-size: 5em;
     cursor: pointer;
     color: white;
+    background-color: greenyellow;
   }
-}
+
  /* About me */
 
-
-.about {
-  width: 80%;
-  margin: 0 auto;
-  text-align: center;
-
-  &-me{
-    margin-top: 10%;
-  }
-
-  &-skills{
-    margin-bottom: 500px;
-  }
-
-  h1{
-    color: gray;
-    text-align: center;
-  }  
-
-
- 
+ .part1{
+  animation-duration: 1s;
+  animation-delay: 10s;
+  background-color: yellow;
  }
- 
+
+ .part2{
+  animation-duration: 1s;
+  animation-delay: 12s;
+  background-color: red;
+ }
+
+
+ .container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+

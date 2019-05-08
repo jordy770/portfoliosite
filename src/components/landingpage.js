@@ -14,30 +14,25 @@ import Typist from "react-typist";
 class Landing extends Component {
   render() {
     return (
-      <div className="home">
-        <Container className="part1">
-          <Row className="show-grid text-center">
-            <Col>
-              <Typist
+      <Container>
+        <Row>
+          <Col className="title">
+          <Typist
                 className="landing-header"
                 avgTypingSpeed={40}
                 startDelay={2000}
               >
-                Welcome to my web
-                <Typist.Delay ms={500} />
-                sete
-                <Typist.Backspace count={5} delay={1000} />
+                Welcome to my website              
+                <Typist.Backspace count={7} delay={1000} />
                 <Typist.Delay ms={750} />
-                bsite
+                portfolio
                 <Typist.Delay ms={1250} />
               </Typist>
-              </Col>
-          </Row>
-          <Row>
-            <Col xs={12} sm={5} className="person-jumbo">
-              <Jumbotron className="introtext-homepage">
-      
-                <p> This is my portfolio website.</p>
+          </Col>
+        </Row>
+        <Row>
+          <Col sm={12} xl={6} className="intro">
+          <h3> This is my portfolio website.</h3>
                 <p>
                   {" "}
                   I'm Jordy van Santen and i'm 20 years old <br /> I'm a
@@ -51,20 +46,18 @@ class Landing extends Component {
                 </p>
                 <p> Click Here if you want to know me Better!!</p>
 
-                <Button variant="secondary" size="lg" href="./aboutme">
+                <Button className="-button" variant="secondary" size="lg" href="./aboutme">
                   About ME!
                 </Button>
-                <Button variant="secondary" size="lg" href="./projects">
+                <Button className="-button" variant="secondary" size="lg" href="./projects">
                   My Projects!
-                </Button>
-              </Jumbotron>
-            </Col>
-            <Col xs={12} sm={7} className="person-wrapper">
-              <Image src="assets/beter.png" rounded className="profile-pic" />
-            </Col>
-          </Row>
-        </Container>
-      </div>
+                </Button>          </Col>
+          <Col sm={12} xl={6} className="pf">
+            <Image src="assets/beter.png" rounded className="profile-pic" />         
+          </Col>
+        </Row>
+
+      </Container>
     );
   }
 }
