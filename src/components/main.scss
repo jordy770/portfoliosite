@@ -13,74 +13,104 @@ body {
   overflow: hidden;
 }
 
-.title{
+.title {
   // background-color: green;
-  
+
   text-align: center;
-  height: 10vh;
+  height: 15vh;
   line-height: 70px;
-  margin: 50px 0;
+  margin: 20px 0 0 0;
 }
 
-.intro{
+.intro {
   background: rgba(255, 255, 255, 0.29);
   text-align: center;
-  padding: 8% 5%;
-  font-family: 'Indie Flower', cursive;
+  // padding: 8% 5%;
+  font-family: "Indie Flower", cursive;
   border-radius: 2em;
-  
-  h3{
-    font-family: 'Indie Flower', cursive;
+  padding-bottom: 15px;
+
+  h5 {
+    font-family: "Indie Flower", cursive;
+    color: white;
   }
 
   p {
-    font-size: 20px
+    font-size: 20px;
+    color: white;
   }
 
   a {
     margin: 10px 10px 0 10px;
     background-color: #414345;
     &:hover {
-      background-color:darkmagenta;
+      background-color: darkmagenta;
     }
   }
+}
 
+.pf {
+  text-align: center;
 }
 
 .profile-pic {
-  width: 100%;
-  border-radius: 2em!important;
+  width: 40%;
+  border-radius: 2em !important;
 }
 
 .landing-header {
-    font-family: "Righteous", cursive;
-    text-align: center;
-    font-size: 5em;
-    cursor: pointer;
-    color: white;
-    background-color: greenyellow;
-  }
-
- /* About me */
-
- .part1{
-  animation-duration: 1s;
-  animation-delay: 10s;
-  background-color: yellow;
- }
-
- .part2{
-  animation-duration: 1s;
-  animation-delay: 12s;
-  background-color: red;
- }
-
-
- .container {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+  font-family: "Righteous", cursive;
+  text-align: center;
+  font-size: 5em;
+  color: white;
+  background-color: greenyellow;
 }
 
+/* About me */
 
+.part1 {
+  animation-duration: 1s;
+  // animation-delay: 10s;
+  background-color: yellow;
+}
+
+.part2 {
+  animation-duration: 1s;
+  // animation-delay: 12s;
+  background-color: red;
+  padding: 5vh;
+  
+}
+
+.container {
+  // margin: auto;
+  max-width: 80%;
+  text-align: center;
+
+  h1 {
+    text-align: center;
+    font-size: 5em;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 4em;
+    margin-top: 0;
+    font-family: 'Acme', sans-serif;
+  }
+}
+
+.items {
+  background: rgba(255, 255, 255, 0.29);
+  color: white;
+  text-align: center;
+  // padding: 8% 5%;
+  font-family: "Indie Flower", cursive;
+  border-radius: 0.5em;
+  p {
+    font-size: 1em;
+    font-family: 'Acme', sans-serif;
+    color: black;
+    
+  }
+}
