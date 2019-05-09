@@ -24,32 +24,37 @@ class Landing extends Component {
           </Col>
         </Row>
         <Row>
-          <Col sm={12} xl={12} className="pf">
-            <Image src="assets/beter.png" rounded className="profile-pic" />
+          <Col sm={12} xl={6} className="intro d-flex align-items-center">
+            <Row>
+
+              <Col md={{ span: 6  , offset: 3 }}>
+                <h5>
+                  {" "}
+                  Hi, This is me Jordy van Santen, I'm a CMGT Student looking
+                  for an Internship!
+                </h5>
+                <p> Click Here if you want to know me Better!!</p>
+                <Button
+                  className="-button"
+                  variant="secondary"
+                  size="lg"
+                  href="./aboutme"
+                >
+                  About ME!
+                </Button>
+                <Button
+                  className="-button"
+                  variant="secondary"
+                  size="lg"
+                  href="./projects"
+                >
+                  My Projects!
+                </Button>{" "}
+              </Col>
+            </Row>
           </Col>
-          </Row>
-          <br/>
-          <Row>
-          <Col sm={12} xl={12} className="intro">
-           <h5> Hi, This is me Jordy van Santen, I'm a CMGT Student looking for an Internship!
-           </h5>
-            <p> Click Here if you want to know me Better!!</p>
-            <Button
-              className="-button"
-              variant="secondary"
-              size="lg"
-              href="./aboutme"
-            >
-              About ME!
-            </Button>
-            <Button
-              className="-button"
-              variant="secondary"
-              size="lg"
-              href="./projects"
-            >
-              My Projects!
-            </Button>{" "}
+          <Col sm={12} xl={6} className="pf">
+            <Image src="assets/beter.png" rounded className="profile-pic" />
           </Col>
         </Row>
       </Container>

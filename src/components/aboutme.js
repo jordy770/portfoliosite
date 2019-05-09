@@ -42,68 +42,58 @@ class About extends Component {
 
           <Col sm={12} xl={6} className="animated fadeIn part2">
             <div className="skills">
-              <Container>
-              <Col>
-              <h2>Skills</h2></Col>
-                <Row>
+              <Container className="">
                 <Col>
+                  <h2>Skills</h2>
+                </Col>
+                <Row>
+                  <Col>
                     <div className="items">
                       <p>Css</p>
-                      <ProgressBar animated now={33} />
                     </div>
                   </Col>
                   <Col>
                     <div className="items">
                       <p>Javascript</p>
-                      <ProgressBar variant="warning" animated now={66} />
                     </div>
                   </Col>
                   <Col>
                     <div className="items">
                       <p>HTML</p>
-                      <ProgressBar variant="success" animated now={100} />
-                    </div>
-                  </Col>
-                 
-                  
-                </Row>
-                <Row>
-                  <Col>
-                    <div className="items">
-                      <p>woop</p>
-                      <ProgressBar animated now={45} />
-                    </div>
-                  </Col>
-                  <Col>
-                    <div className="items">
-                      <p>woop</p>
-                      <ProgressBar animated now={45} />
-                    </div>
-                  </Col>
-                  <Col>
-                    <div className="items">
-                      <p>woop</p>
-                      <ProgressBar animated now={45} />
                     </div>
                   </Col>
                 </Row>
                 <Row>
                   <Col>
                     <div className="items">
-                      <p>woop</p>
-                      <ProgressBar animated now={45} />
+                      <p>PHP</p>
                     </div>
                   </Col>
                   <Col>
                     <div className="items">
-                      <p>woop</p>
-                      <ProgressBar animated now={45} />
+                      <p>C#</p>
                     </div>
                   </Col>
                   <Col>
                     <div className="items">
-                      <p>woop</p>
-                      <ProgressBar animated now={45} />
+                      <p>.NET CORE</p>
+                    </div>
+                  </Col>
+                </Row>
+                <Row>
+                  <Col>
+                    <div className="items">
+                      <p>React</p>
+                    </div>
+                  </Col>
+                  <Col>
+                    <div className="items">
+                      <p>Vue</p>
+                    </div>
+                  </Col>
+                  <Col>
+                    <div className="items">
+                      <p></p>
                     </div>
                   </Col>
                 </Row>

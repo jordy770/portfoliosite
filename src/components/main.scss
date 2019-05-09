@@ -19,7 +19,7 @@ body {
   text-align: center;
   height: 15vh;
   line-height: 70px;
-  margin: 20px 0 0 0;
+  margin: 20px 0;
 }
 
 .intro {
@@ -49,12 +49,9 @@ body {
   }
 }
 
-.pf {
-  text-align: center;
-}
 
 .profile-pic {
-  width: 40%;
+  width: 75%;
   border-radius: 2em !important;
 }
 
@@ -96,6 +93,14 @@ body {
     text-align: center;
     font-size: 4em;
     margin-top: 0;
+    font-family: 'Acme', sans-serif;
+  }
+}
+
+.skills {
+  
+  
+  h2{
     font-family: 'Acme', sans-serif;
   }
 }
