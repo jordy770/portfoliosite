@@ -25,7 +25,7 @@ class About extends Component {
 
         <Row>
           <Col sm={12} xl={6} className="animated fadeIn part1">
-            <h1>about</h1>
+            <h2>About</h2>
             <h3> This is my portfolio website.</h3>
             <p>
               {" "}
@@ -42,7 +42,7 @@ class About extends Component {
 
           <Col sm={12} xl={6} className="animated fadeIn part2">
             <div className="skills">
-              <Container className="">
+              <Container>
                 <Col>
                   <h2>Skills</h2>
                 </Col>
@@ -62,13 +62,13 @@ class About extends Component {
                       <p>HTML</p>
                     </div>
                   </Col>
-                </Row>
-                <Row>
                   <Col>
                     <div className="items">
                       <p>PHP</p>
                     </div>
                   </Col>
+                </Row>
+                <Row>
                   <Col>
                     <div className="items">
                       <p>C#</p>
@@ -79,8 +79,6 @@ class About extends Component {
                       <p>.NET CORE</p>
                     </div>
                   </Col>
-                </Row>
-                <Row>
                   <Col>
                     <div className="items">
                       <p>React</p>
@@ -91,15 +89,11 @@ class About extends Component {
                       <p>Vue</p>
                     </div>
                   </Col>
-                  <Col>
-                    <div className="items">
-                      <p></p>
-                    </div>
-                  </Col>
                 </Row>
               </Container>
             </div>
-            <div className="-timeline" />
+            <div className="-timeline">
+            </div>
           </Col>
         </Row>
       </Container>

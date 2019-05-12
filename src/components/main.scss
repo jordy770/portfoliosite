@@ -49,7 +49,6 @@ body {
   }
 }
 
-
 .profile-pic {
   width: 75%;
   border-radius: 2em !important;
@@ -76,7 +75,6 @@ body {
   // animation-delay: 12s;
   background-color: red;
   padding: 5vh;
-  
 }
 
 .container {
@@ -92,16 +90,14 @@ body {
   h2 {
     text-align: center;
     font-size: 4em;
-    margin-top: 0;
-    font-family: 'Acme', sans-serif;
+
+    font-family: "Acme", sans-serif;
   }
 }
 
 .skills {
-  
-  
-  h2{
-    font-family: 'Acme', sans-serif;
+  h2 {
+    font-family: "Acme", sans-serif;
   }
 }
 
@@ -114,8 +110,64 @@ body {
   border-radius: 0.5em;
   p {
     font-size: 1em;
-    font-family: 'Acme', sans-serif;
+    font-family: "Acme", sans-serif;
     color: black;
-    
   }
+}
+
+/* Project css */
+
+.project-box {
+  background: #fff;
+  border: 1px solid black;
+  border-radius: 3px;
+  width: 40vh;
+  height: 40vh;
+  margin: 10px;
+  padding: 0px;
+  float: left;
+  text-align: center;
+  a {
+    margin: 10px 10px 0 10px;
+    background-color: #414345;
+    &:hover {
+      background-color: darkmagenta;
+    }
+  }
+}
+
+.react-draggable strong {
+  background: #ddd;
+  border: 1px solid #999;
+  border-radius: 3px;
+  display: block;
+  // margin-bottom: 10px;
+  padding: 3px 5px;
+  text-align: center;
+}
+
+.project-container {
+  max-width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.project-pic {
+  width: 100%;
+  height: 20vh;
+  margin-bottom: 15px;
+}
+
+.react-draggable,
+.cursor {
+  cursor: move;
+}
+.no-cursor {
+  cursor: auto;
+}
+.cursor-y {
+  cursor: ns-resize;
+}
+.cursor-x {
+  cursor: ew-resize;
 }
