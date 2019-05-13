@@ -40,6 +40,8 @@ class Contact extends Component {
                 <strong>Jordy van Santen</strong>
                 <p> CMGT Student <br/> jordy.van.santen@gmail.com <br/> +31613588331</p>
                 </div>
+                <br/>
+                <br/>
                 <ul>
                   <li>
                     <a href="https://codepen.io/jordy770/">

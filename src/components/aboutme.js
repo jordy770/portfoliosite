@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Container, Row, Col, ProgressBar } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 import Typist from "react-typist";
 import "./main.scss";
 
@@ -34,7 +34,7 @@ class About extends Component {
             </p>
             <p>
               {" "}
-              At this moment i'm studying at the university of applied science
+              In 2017 ben ik begon met de opleiding CMGTAt this moment i'm studying at the university of applied science
               Rotterdam and the course I'm following is Creative Media and Game
               Technologies.
             </p>
@@ -92,7 +92,19 @@ class About extends Component {
                 </Row>
               </Container>
             </div>
-            <div className="-timeline">
+            <br/>
+            <hr/>
+            <div className="cv">
+            <h2>CV</h2>
+            <p>Klik hier om je mijn CV te downloaden</p>
+            <Button
+                  className="-button"
+                  variant="secondary"
+                  size="lg"
+                  href="./aboutme"
+                >
+                  DOWNLOAD
+                </Button>
             </div>
           </Col>
         </Row>
