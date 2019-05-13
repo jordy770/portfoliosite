@@ -1,28 +1,86 @@
-import React, {Component} from 'react';
-import Map from 'pigeon-maps';
-import Marker from 'pigeon-marker'
-
-
-
-
- 
+import React, { Component } from "react";
+import Map from "pigeon-maps";
+import Marker from "pigeon-marker";
+import "./main.scss";
+import { Container, Col, Row, Button } from "react-bootstrap";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faHome,
+  faUser,
+  faFile,
+  faEnvelope
+} from "@fortawesome/free-solid-svg-icons";
+import { fab } from "@fortawesome/free-brands-svg-icons";
 
 class Contact extends Component {
-   
-    
-    render(){
-        return(
-           <div>
-<Map center={[50.879, 4.6997]} zoom={12} width={600} height={400}>
-    <Marker anchor={[50.874, 4.6947]} payload={1} onClick={({ event, anchor, payload }) => {}} />
-
-    {/* <Overlay anchor={[50.879, 4.6997]} offset={[120, 79]}>
-      <img src='pigeon.jpg' width={240} height={158} alt='' />
-    </Overlay> */}
-  </Map>
-           </div>
-        )
-    }
+  render() {
+    return (
+      <Container className="contact-container">
+        <Row>
+          <Col
+            sm={12}
+            xl={6}
+            className="contact-detail d-flex align-items-center"
+          >
+            <Row>
+              <Col md={{ span: 7, offset: 3 }}>
+                <h2> Contact </h2>
+                <p> Hi, </p>
+                <p >
+                  Deze periode ben ik opzoek naar een stageplek, graag wil ik
+                  mezelf openstellen voor een Front-End stage. Daarbij wil ik
+                  mijn skillset verbeteren op het gebied van front-end libaries,
+                  zoals React, Vue of Angular. Verder wil ik me ook verdiepen op
+                  het gebied van front-end animaties.
+                </p>
+                <p> Neem gerust contact met me op!</p>
+                <br/>
+                <div className="my-details">
+                <strong>Jordy van Santen</strong>
+                <p> CMGT Student <br/> jordy.van.santen@gmail.com <br/> +31613588331</p>
+                </div>
+                <ul>
+                  <li>
+                    <a href="https://codepen.io/jordy770/">
+                      <FontAwesomeIcon icon={["fab", "codepen"]} size="lg" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.linkedin.com/in/jordy-van-santen-b0a20851/">
+                      <FontAwesomeIcon icon={["fab", "linkedin"]} size="lg" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/jordy770/">
+                      <FontAwesomeIcon icon={["fab", "github"]} size="lg" />
+                    </a>
+                    <i class="fab fa-facebook-square" />
+                  </li>
+                </ul>
+              </Col>
+            </Row>
+          </Col>
+          <Col xl={6} className="contact-map">
+            <Map
+              center={[52.009186, 4.538564]}
+              zoom={12}
+              defaultWidth
+              animate
+              defaultHeight
+              className="map-style"
+            >
+              <Marker
+                anchor={[52.009186, 4.538564]}
+                payload={1}
+                onClick={({ event, anchor, payload }) => {}}
+              />
+            </Map>
+          </Col>
+        </Row>
+      </Container>
+    );
+  }
 }
 
 export default Contact;

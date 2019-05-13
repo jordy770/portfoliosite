@@ -50,7 +50,7 @@ margin: 0;
 
 
 
-li a {
+.nav li a {
 color: #4d4d4e;
 text-decoration: none;
 padding: 7px 0;
@@ -58,8 +58,8 @@ display: block;
 font-size: 20px;
 line-height: 16px;
 }
-li a:hover,
-li a:focus {
+.nav li a:hover,
+.nav li a:focus {
 transition-duration: 0.5s;
 color: darkmagenta;
 text-decoration: underline;

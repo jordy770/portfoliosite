@@ -17,7 +17,7 @@ library.add(fab, faHome, faUser, faFile, faEnvelope);
 
 function App() {
   return (
-    <div className="nav">
+    <div >
       <Layout fixedHeader>
         <Header
           className="nav-header"
@@ -41,7 +41,7 @@ function App() {
             </Link>
           }
         >
-          <Navigation>
+          <Navigation className="nav">
             {/* <Link to="/resume">Resume</Link> */}
             <Link to="/aboutme">About me</Link>
             <Link to="/projects">Projects</Link>
@@ -49,17 +49,17 @@ function App() {
             <ul>
               <li>
                 <a href="https://codepen.io/jordy770/">
-                  <FontAwesomeIcon icon={["fab", "codepen"]} size="lg"/>
+                  <FontAwesomeIcon icon={["fab", "codepen"]} size="lg" />
                 </a>
               </li>
               <li>
                 <a href="https://www.linkedin.com/in/jordy-van-santen-b0a20851/">
-                  <FontAwesomeIcon icon={["fab", "linkedin"]} size="lg"/>
+                  <FontAwesomeIcon icon={["fab", "linkedin"]} size="lg" />
                 </a>
               </li>
               <li>
                 <a href="https://github.com/jordy770/">
-                  <FontAwesomeIcon icon={["fab", "github"]} size="lg"/>
+                  <FontAwesomeIcon icon={["fab", "github"]} size="lg" />
                 </a>
                 <i class="fab fa-facebook-square" />
               </li>

@@ -77,15 +77,10 @@ body {
   padding: 5vh;
 }
 
-.container {
+.about {
   // margin: auto;
   max-width: 80%;
   text-align: center;
-
-  h1 {
-    text-align: center;
-    font-size: 5em;
-  }
 
   h2 {
     text-align: center;
@@ -171,3 +166,62 @@ body {
 .cursor-x {
   cursor: ew-resize;
 }
+
+/* Contact page */
+
+.contact-container {
+  max-width: 100%;
+}
+
+.contact-detail {
+  font-family: "Acme", sans-serif;
+  background: rgba(255, 255, 255, 0.29);
+  
+  // padding: 8% 5%;
+  padding-bottom: 15px;
+
+  strong {
+    font-size: 25px;
+  }
+
+  p {
+    font-size: 20px;
+    color: white;
+  }
+
+  h2 {
+    font-family: "Acme", sans-serif;
+  }
+
+  li{
+    display: inline;
+  }
+
+  li a {
+    color: #4d4d4e;
+    text-decoration: none;
+    padding: 0 20px;
+    
+    font-size: 50px;
+    line-height: 16px;
+    
+    }
+     li a:hover,
+     li a:focus {
+    transition-duration: 0.5s;
+    color: darkmagenta;
+    text-decoration: underline;
+    } 
+
+}
+.contact-map {
+  background-color: yellow;
+  height: 93.1vh;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.something {
+  background-color: yellowgreen;
+}
+

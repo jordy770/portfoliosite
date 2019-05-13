@@ -6,7 +6,7 @@ import "./main.scss";
 class About extends Component {
   render() {
     return (
-      <Container className="container">
+      <Container className="about">
         <Row>
           <Col className="title">
             <Typist

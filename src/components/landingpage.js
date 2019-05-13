@@ -26,8 +26,7 @@ class Landing extends Component {
         <Row>
           <Col sm={12} xl={6} className="intro d-flex align-items-center">
             <Row>
-
-              <Col md={{ span: 6  , offset: 3 }}>
+              <Col md={{ span: 6, offset: 3 }}>
                 <h5>
                   {" "}
                   Hi, This is me Jordy van Santen, I'm a CMGT Student looking
