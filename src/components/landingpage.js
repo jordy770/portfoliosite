@@ -7,7 +7,7 @@ import Typist from "react-typist";
 class Landing extends Component {
   render() {
     return (
-      <Container>
+      <Container className="landing-container">
         <Row>
           <Col className="title">
             <Typist
@@ -33,28 +33,37 @@ class Landing extends Component {
                   for an Internship!
                 </h5>
                 <p> Click Here if you want to know me Better!!</p>
-                <Button
-                  className="-button"
-                  variant="secondary"
-                  size="lg"
-                  href="./aboutme"
-                >
-                  About ME!
-                </Button>
-                <Button
-                  className="-button"
-                  variant="secondary"
-                  size="lg"
-                  href="./projects"
-                >
-                  My Projects!
-                </Button>{" "}
               </Col>
             </Row>
           </Col>
           <Col sm={12} xl={6} className="pf">
             <Image src="assets/beter.png" rounded className="profile-pic" />
           </Col>
+        </Row>
+        <br/>
+        <Row className="buttons">
+          <Col>
+        <Button
+                  className="-button"
+                  variant="secondary"
+                  size="lg"
+                  href="./aboutme"
+                  block
+                >
+                  About ME!
+                </Button>
+                </Col>
+                <Col>
+                <Button
+                  className="-button"
+                  variant="secondary"
+                  size="lg"
+                  href="./projects"
+                  block
+                >
+                  My Projects!
+                </Button>{" "}
+                </Col>
         </Row>
       </Container>
     );

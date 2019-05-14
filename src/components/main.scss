@@ -17,12 +17,36 @@ body {
   // background-color: green;
 
   text-align: center;
-  height: 15vh;
+  height: 10vh;
   line-height: 70px;
   margin: 20px 0;
 }
 
+.landing-container{
+  
+  .buttons{
+    padding-top: 1%;
+
+     a {
+      color: #4d4d4e;
+      text-decoration: none;
+      
+      font-size: 20px;
+      line-height: 40px;
+    
+      
+      }
+        a:hover,
+        a:focus {
+      transition-duration: 0.5s;
+      color: darkmagenta;
+      text-decoration: underline;
+      } 
+  }
+}
+
 .intro {
+
   background: rgba(255, 255, 255, 0.29);
   text-align: center;
   // padding: 8% 5%;
@@ -50,7 +74,7 @@ body {
 }
 
 .profile-pic {
-  width: 75%;
+  width: 100%;
   border-radius: 2em !important;
 }
 
