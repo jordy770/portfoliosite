@@ -6,7 +6,6 @@ import { Container, Col, Row } from "react-bootstrap";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-
 class Contact extends Component {
   render() {
     return (
@@ -21,7 +20,7 @@ class Contact extends Component {
               <Col md={{ span: 7, offset: 3 }}>
                 <h2> Contact </h2>
                 <p> Hi, </p>
-                <p >
+                <p>
                   Deze periode ben ik opzoek naar een stageplek, graag wil ik
                   mezelf openstellen voor een Front-End stage. Daarbij wil ik
                   mijn skillset verbeteren op het gebied van front-end libaries,
@@ -29,13 +28,17 @@ class Contact extends Component {
                   het gebied van front-end animaties.
                 </p>
                 <p> Neem gerust contact met me op!</p>
-                <br/>
+                <br />
                 <div className="my-details">
-                <strong>Jordy van Santen</strong>
-                <p> CMGT Student <br/> jordy.van.santen@gmail.com <br/> +31613588331</p>
+                  <strong>Jordy van Santen</strong>
+                  <p>
+                    {" "}
+                    CMGT Student <br /> jordy.van.santen@gmail.com <br />{" "}
+                    +31613588331
+                  </p>
                 </div>
-                <br/>
-                <br/>
+                <br />
+                <br />
                 <ul>
                   <li>
                     <a href="https://codepen.io/jordy770/">

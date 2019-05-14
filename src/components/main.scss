@@ -129,6 +129,15 @@ body {
 
 /* Project css */
 
+.project-page {
+  h3{
+    color: white;
+    padding-left: 50px;
+  }
+}
+
+
+
 .project-box {
   background: #fff;
   border: 1px solid black;
@@ -148,13 +157,18 @@ body {
   }
 }
 
+.project-page{
+  h3{
+    font-family: "Acme", sans-serif;
+  }
+}
+
 .project-button {
   text-align: center;
 }
 .react-draggable strong {
   background: #ddd;
   border: 1px solid #999;
-  border-radius: 3px;
   display: block;
   // margin-bottom: 10px;
   padding: 3px 5px;
