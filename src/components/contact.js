@@ -2,16 +2,10 @@ import React, { Component } from "react";
 import Map from "pigeon-maps";
 import Marker from "pigeon-marker";
 import "./main.scss";
-import { Container, Col, Row, Button } from "react-bootstrap";
-import { library } from "@fortawesome/fontawesome-svg-core";
+import { Container, Col, Row } from "react-bootstrap";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faHome,
-  faUser,
-  faFile,
-  faEnvelope
-} from "@fortawesome/free-solid-svg-icons";
-import { fab } from "@fortawesome/free-brands-svg-icons";
+
 
 class Contact extends Component {
   render() {

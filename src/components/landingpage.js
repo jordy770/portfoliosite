@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./main.scss";
-import { Jumbotron, Container, Row, Col, Image, Button } from "react-bootstrap";
+import {Container, Row, Col, Image} from "react-bootstrap";
 
 import Typist from "react-typist";
 
@@ -32,7 +32,7 @@ class Landing extends Component {
                   Hi, This is me Jordy van Santen, I'm a CMGT Student looking
                   for an Internship!
                 </h5>
-                <p> Click Here if you want to know me Better!!</p>
+                <a href="./aboutme"> Click Here if you want to know me Better!!</a>
               </Col>
             </Row>
           </Col>
@@ -41,30 +41,31 @@ class Landing extends Component {
           </Col>
         </Row>
         <br/>
-        <Row className="buttons">
+        {/* <Row className="buttons">
           <Col>
         <Button
                   className="-button"
                   variant="secondary"
                   size="lg"
                   href="./aboutme"
-                  block
+                  
                 >
                   About ME!
                 </Button>
                 </Col>
+                
                 <Col>
                 <Button
                   className="-button"
                   variant="secondary"
                   size="lg"
                   href="./projects"
-                  block
+                  
                 >
                   My Projects!
                 </Button>{" "}
                 </Col>
-        </Row>
+        </Row> */}
       </Container>
     );
   }
