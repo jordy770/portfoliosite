@@ -34,7 +34,10 @@ class About extends Component {
             </p>
             <p>
               {" "}
-              In 2017 ben ik begon met de opleiding CMGT of ook wel Creative media & Game Technologies. Ik ben met deze opleiding begonnen, omdat mijn passie echt ligt bij computers. Sinds jong af aan heb ik vele uren achter mijn computer gespendeerd. Op deze is manier is mijn enthousiasme van computers ontstaan. Zo nu en dan kom ik websites tegen waardoor ik echt omver geblazen wordt. Uit vele inspiratiebronnen ben ik deze website gaan bouwen. Om daarbij zo veel mogelijk van mij skills terug te laten komen.
+              In 2017 ben ik begon met de opleiding CMGT of ook wel Creative media & Game Technologies.
+              Ik ben met deze opleiding begonnen, omdat mijn passie echt ligt bij computers.
+              Sinds jong af aan heb ik vele uren achter mijn computer gespendeerd.
+              Op deze is manier is mijn enthousiasme van computers ontstaan. Zo nu en dan kom ik websites tegen waardoor ik echt omver geblazen wordt. Uit vele inspiratiebronnen ben ik deze website gaan bouwen. Om daarbij zo veel mogelijk van mij skills terug te laten komen.
             </p>
           </Col>
 
