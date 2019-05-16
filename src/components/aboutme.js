@@ -29,14 +29,12 @@ class About extends Component {
             <h3> This is my portfolio website.</h3>
             <p>
               {" "}
-              I'm Jordy van Santen and i'm 20 years old <br /> I'm a beginning
+              I'm Jordy van Santen and I'm 21 years old <br /> I'm a beginning
               Creative programmer{" "}
             </p>
             <p>
               {" "}
-              In 2017 ben ik begon met de opleiding CMGTAt this moment i'm studying at the university of applied science
-              Rotterdam and the course I'm following is Creative Media and Game
-              Technologies.
+              In 2017 ben ik begon met de opleiding CMGT of ook wel Creative media & Game Technologies. Ik ben met deze opleiding begonnen, omdat mijn passie echt ligt bij computers. Sinds jong af aan heb ik vele uren achter mijn computer gespendeerd. Op deze is manier is mijn enthousiasme van computers ontstaan. Zo nu en dan kom ik websites tegen waardoor ik echt omver geblazen wordt. Uit vele inspiratiebronnen ben ik deze website gaan bouwen. Om daarbij zo veel mogelijk van mij skills terug te laten komen.
             </p>
           </Col>
 
@@ -87,6 +85,28 @@ class About extends Component {
                   <Col>
                     <div className="items">
                       <p>Vue</p>
+                    </div>
+                  </Col>
+                </Row>
+                <Row>
+                  <Col>
+                    <div className="items">
+                      <p>Wordpress</p>
+                    </div>
+                  </Col>
+                  <Col>
+                    <div className="items">
+                      <p>c++</p>
+                    </div>
+                  </Col>
+                  <Col>
+                    <div className="items">
+                      <p>Typescript</p>
+                    </div>
+                  </Col>
+                  <Col>
+                    <div className="items">
+                      <p>Json</p>
                     </div>
                   </Col>
                 </Row>
