@@ -23,7 +23,7 @@ function App() {
           className="nav-header"
           title={
             <Link to="/" className="nav-title">
-              Portfolio
+              Home
             </Link>
           }
         >
@@ -37,7 +37,7 @@ function App() {
         <Drawer
           title={
             <Link to="/" className="nav-title-sub">
-              Portfolio
+              Home
             </Link>
           }
         >

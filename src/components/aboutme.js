@@ -24,7 +24,7 @@ class About extends Component {
           </Col>
         </Row>
 
-        <Row>
+        <Row className="animated fadeIn about-me">
           <Col sm={12} xl={6} className="animated fadeIn part1">
             <h2>About</h2>
             <h3> This is my portfolio website.</h3>
@@ -120,12 +120,13 @@ class About extends Component {
             <hr/>
             <div className="cv">
             <h2>CV</h2>
-            <p>Klik hier om je mijn CV te downloaden</p>
+            <p>Klik hier voor mijn CV</p>
             <Button
-                  className="-button"
+                  className="cv-button"
                   variant="secondary"
                   size="lg"
-                  href="/aboutme"
+                  href="assets/CV_jordy_van_santen.pdf"
+                  target="blank"
                 >
                   DOWNLOAD
                 </Button>

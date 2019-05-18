@@ -77,17 +77,24 @@ body {
 
 /* About me */
 
+.about-me {
+  background: rgba(255, 255, 255, 0.29);
+  border-radius: 2em !important;
+  animation-duration: 1s;
+  // animation-delay: 8s;
+}
+
 .part1 {
   animation-duration: 1s;
   // animation-delay: 9s;
-  background-color: yellow;
+  
   padding: 100px;
 }
 
 .part2 {
   animation-duration: 1s;
   // animation-delay: 12s;
-  background-color: red;
+  
   padding: 5vh;
 }
 
@@ -126,6 +133,11 @@ body {
 
 .cv {
   padding-top: 25px;
+}
+
+.cv-button {
+  background-color: darkgrey;
+
 }
 
 /* Project css */
@@ -187,6 +199,7 @@ body {
   height: 20vh;
   margin-bottom: 15px;
 }
+
 
 .react-draggable,
 .cursor {
