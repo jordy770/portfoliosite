@@ -125,7 +125,7 @@ class About extends Component {
                   className="-button"
                   variant="secondary"
                   size="lg"
-                  href="jordyvs.nl/aboutme"
+                  href="/aboutme"
                 >
                   DOWNLOAD
                 </Button>

@@ -33,9 +33,9 @@ class Landing extends Component {
                   Hi, This is me Jordy van Santen, I'm a CMGT Student looking
                   for an Internship!
                 </h5>
-                <Link to="/aboutme">
-                <a > Click Here if you want to know me Better!!</a>
-                </Link>
+                
+                <a href="./aboutme"> Click Here if you want to know me Better!!</a>
+                
               </Col>
             </Row>
           </Col>
