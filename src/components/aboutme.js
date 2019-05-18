@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import Typist from "react-typist";
+import {Link} from 'react-router-dom';
 import "./main.scss";
 
 class About extends Component {
