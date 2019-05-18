@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Draggable from "react-draggable";
 import { Col, Row, Image, Button } from "react-bootstrap";
+import {Link} from 'react-router-dom';
 
 class Projects extends Component {
   render() {
@@ -35,9 +36,11 @@ class Projects extends Component {
             </Row>
             <br />
             <div className="project-button">
-              <Button variant="secondary" size="lg" href="./breakatniki">
+              <Link to="breakatniki">
+              <Button variant="secondary" size="lg">
                 Click here!
               </Button>
+              </Link>
             </div>
           </div>
         </Draggable>
@@ -63,9 +66,11 @@ class Projects extends Component {
             </Row>
             <br />
             <div className="project-button">
-              <Button variant="secondary" size="lg" href="./apigamesite">
+            <Link to="apigame">
+              <Button variant="secondary" size="lg">
                 Click here!
               </Button>
+              </Link>
             </div>
           </div>
         </Draggable>
@@ -91,9 +96,11 @@ class Projects extends Component {
             </Row>
             <br />
             <div className="project-button">
-              <Button variant="secondary" size="lg" href="./thatshot">
+            <Link to="thatshot">
+              <Button variant="secondary" size="lg">
                 Click here!
               </Button>
+              </Link>
             </div>
           </div>
         </Draggable>
@@ -119,9 +126,11 @@ class Projects extends Component {
             </Row>
             <br />
             <div className="project-button">
-              <Button variant="secondary" size="lg" href="./doggo">
+            <Link to="doggo">
+              <Button variant="secondary" size="lg">
                 Click here!
               </Button>
+              </Link>
             </div>
           </div>
         </Draggable>
@@ -147,9 +156,11 @@ class Projects extends Component {
             </Row>
             <br />
             <div className="project-button">
-              <Button variant="secondary" size="lg" href="./portfoliov1">
+            <Link to="portfoliov1">
+              <Button variant="secondary" size="lg">
                 Click here!
               </Button>
+              </Link>
             </div>
           </div>
         </Draggable>
@@ -175,9 +186,11 @@ class Projects extends Component {
             </Row>
             <br />
             <div className="project-button">
-              <Button variant="secondary" size="lg" href="./portfoliov2">
+            <Link to="portfoliov2">
+              <Button variant="secondary" size="lg">
                 Click here!
               </Button>
+              </Link>
             </div>
           </div>
         </Draggable>
