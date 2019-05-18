@@ -29,11 +29,7 @@ background: linear-gradient(to top, #414345, #232526); /* W3C, IE 10+/ Edge, Fir
   width: 75%;
 }
 
-.jumbotron {
-    margin-bottom: 4em;
-    margin-top: 6em;
-    text-align: center
-  }
+
   .person-wrapper {
     margin-top: 13em;
   }
