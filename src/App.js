@@ -28,7 +28,6 @@ function App() {
           }
         >
           <Navigation>
-            {/* <Link to="/resume">Resume</Link> */}
             <Link to="/aboutme">About me</Link>
             <Link to="/projects">Projects</Link>
             <Link to="/contact">Contact</Link>
@@ -42,7 +41,6 @@ function App() {
           }
         >
           <Navigation className="nav">
-            {/* <Link to="/resume">Resume</Link> */}
             <Link to="/aboutme">About me</Link>
             <Link to="/projects">Projects</Link>
             <Link to="/contact">Contact</Link>
@@ -72,45 +70,6 @@ function App() {
         </Content>
       </Layout>
     </div>
-
-    // <div>
-    //   <div className="nav-bar">
-    //         <nav>
-    //           <Link exact to="./" ClassName="active">
-    //             <FontAwesomeIcon icon="home" />
-    //           </Link>
-    //           <Link to="./aboutme" ClassName="active" >
-    //             <FontAwesomeIcon icon="user"/>
-    //           </Link>
-    //           <Link to="./projects" ClassName="active" >
-    //             <FontAwesomeIcon icon="file" />
-    //           </Link>
-    //           <Link to="./contact" ClassName="active" >
-    //             <FontAwesomeIcon icon="envelope" />
-    //           </Link>
-    //         </nav>
-    //       <ul>
-    //         <li>
-    //           <a href="https://codepen.io/jordy770/">
-    //           <FontAwesomeIcon icon={['fab', 'codepen']} />
-    //           </a>
-    //         </li>
-    //         <li>
-    //           <a href="https://www.linkedin.com/in/jordy-van-santen-b0a20851/">
-    //           <FontAwesomeIcon icon={['fab', 'linkedin']} />
-    //           </a>
-    //         </li>
-    //         <li>
-    //           <a href="https://github.com/jordy770/">
-    //           <FontAwesomeIcon icon={['fab', 'github']} />
-    //           </a>
-    //           <i class="fab fa-facebook-square"></i>
-    //         </li>
-    //       </ul>
-    //     </div>
-    //   <div className="page-content" />
-    //   <Main/>
-    // </div>
   );
 }
 

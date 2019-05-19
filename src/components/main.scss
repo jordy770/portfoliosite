@@ -269,3 +269,57 @@ body {
 .something {
   background-color: yellowgreen;
 }
+
+// ------------------- Media Queries ------------------- 
+
+// Smaller devices (landscape phones, 576px and up)
+@media (max-width: 576px) { 
+  .about {
+    background-color:green;
+  }
+  .about .title {
+    display:none;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+  .about {
+    background-color:orange;
+  }
+  .about .title {
+    display:none;
+  }
+
+  
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+  .about {
+    background-color:blue;
+  }
+  .about .title {
+    display:block;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+  .about {
+    background-color:yellow;
+  }
+  .about .title {
+    display:block;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+  .about {
+    background-color:red;
+  }
+  .about .title {
+    display:block;
+  }
+}

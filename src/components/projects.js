@@ -14,13 +14,12 @@ class Projects extends Component {
         <Draggable 
         bounds="body" 
         defaultPosition={{x: 600, y: 350}}
-        handle="strong" 
-        {...dragHandlers}>
-          <div className="project-box break no-cursor">
+        >
+          <div className="project-box ">
             <strong className="cursor">
               <div> Break@niki </div>
             </strong>
-            <Image className="project-pic" src="assets/screenshot-break.png" />
+            <Image className="project-pic" draggable="false" src="assets/screenshot-break.png" />
             <Row>
               <Col
                 md={{ span: 10, offset: 1 }}
@@ -45,12 +44,12 @@ class Projects extends Component {
           </div>
         </Draggable>
 
-        <Draggable bounds="body" handle="strong" {...dragHandlers}>
-          <div className="project-box no-cursor">
+        <Draggable bounds="body">
+          <div className="project-box">
             <strong className="cursor">
               <div>API & GameSite</div>
             </strong>
-            <Image className="project-pic" src="assets/gamesite.png" />
+            <Image className="project-pic" draggable="false" src="assets/gamesite.png" />
             <Row>
               <Col
                 md={{ span: 10, offset: 1 }}
@@ -75,12 +74,12 @@ class Projects extends Component {
           </div>
         </Draggable>
 
-        <Draggable bounds="body" handle="strong" {...dragHandlers}>
-          <div className="project-box no-cursor">
+        <Draggable bounds="body" >
+          <div className="project-box">
             <strong className="cursor">
               <div>ThatShot</div>
             </strong>
-            <Image className="project-pic" src="assets/thatshot.png" />
+            <Image className="project-pic" draggable="false" src="assets/thatshot.png" />
             <Row>
               <Col
                 md={{ span: 10, offset: 1 }}
@@ -105,12 +104,12 @@ class Projects extends Component {
           </div>
         </Draggable>
 
-        <Draggable bounds="body" defaultPosition={{x: 100, y: -100}} handle="strong" {...dragHandlers}>
-          <div className="project-box no-cursor">
-            <strong className="cursor">
+        <Draggable bounds="body" defaultPosition={{x: 100, y: -100}}>
+          <div className="project-box">
+            <strong>
               <div>Doggo</div>
             </strong>
-            <Image className="project-pic" src="assets/chappe.png" />
+            <Image className="project-pic" draggable="false" src="assets/chappe.png" />
             <Row>
               <Col
                 md={{ span: 10, offset: 1 }}
@@ -135,12 +134,12 @@ class Projects extends Component {
           </div>
         </Draggable>
 
-        <Draggable bounds="body" defaultPosition={{x: 100, y: -100}} handle="strong" {...dragHandlers}>
-          <div className="project-box no-cursor">
-            <strong className="cursor">
+        <Draggable bounds="body" defaultPosition={{x: 100, y: -100}} >
+          <div className="project-box ">
+            <strong>
               <div>Portfolio V1</div>
             </strong>
-            <Image className="project-pic" src="assets/portfolio-v1.png" />
+            <Image className="project-pic" draggable="false" src="assets/portfolio-v1.png" />
             <Row>
               <Col
                 md={{ span: 10, offset: 1 }}
@@ -165,12 +164,12 @@ class Projects extends Component {
           </div>
         </Draggable>
 
-        <Draggable bounds="body" defaultPosition={{x: 100, y: -100}} handle="strong" {...dragHandlers}>
-          <div className="project-box no-cursor">
+        <Draggable bounds="body" draggable="false" defaultPosition={{x: 100, y: -100}}>
+          <div className="project-box ">
             <strong className="cursor">
               <div>Portfolio V2</div>
             </strong>
-            <Image className="project-pic" src="assets/portfolio-v2.png" />
+            <Image className="project-pic" draggable="false" src="assets/portfolio-v2.png" />
             <Row>
               <Col
                 md={{ span: 10, offset: 1 }}
