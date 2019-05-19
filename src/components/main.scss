@@ -227,11 +227,25 @@ body {
   margin: 5%; 
   text-align: center;
   // height: 5em;
+
+  
   
 }
 
 .project-container{
   max-width: 80%;
+  text-align: center;
+  a {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-left: 50px;
+  }
+
+  #Button{
+    margin: 5px;
+  }
+
 }
 
 .project-title{
@@ -241,11 +255,12 @@ body {
 
 .col-image{
   text-align: center;
+  margin-bottom: 40px;
 }
 
 .project-image{
   width: 50%;
-  text-align: center;
+  
 }
 
 // ------------------- Content page ------------------- 

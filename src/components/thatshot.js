@@ -1,14 +1,14 @@
 import React, { Component } from "react";
 import "./main.scss";
-import { Container, Row, Col, Image } from "react-bootstrap";
+import { Container, Row, Col, Image, Button } from "react-bootstrap";
 
 class Thatshot extends Component {
   render() {
     return (
       <Container className="project-container">
-        <h1 className="project-title">Portfolio v2</h1>
+        <h2 className="project-title">Portfolio v2</h2>
         <Row>
-          <Col>
+          <Col sm={12} xl={6}>
             <div className="project-items">
               He stared at the clinic, Molly took him to the simple Chinese
               hollow points Shin had sold him. The Tessier-Ashpool ice
@@ -32,15 +32,15 @@ class Thatshot extends Component {
               breathing of the fighters.
             </div>
           </Col>
-          <Col className="col-image">
+          <Col sm={12} xl={6} className="col-image">
             <Image src="assets/beter.png" className="project-image" />
           </Col>
         </Row>
         <Row>
-          <Col className="col-image">
+          <Col sm={12} xl={6} className="col-image">
             <Image src="assets/beter.png" className="project-image" />
           </Col>
-          <Col>
+          <Col sm={12} xl={6}>
             <div className="project-items">
               All the speed he took, all the turns he’d taken and the chassis of
               a gutted game console. Images formed and reformed: a flickering
@@ -62,6 +62,12 @@ class Thatshot extends Component {
               the barrel over to single shot, and very carefully put a toxin
               dart through the center of a skyscraper canyon.
             </div>
+            <Button target="blank" variant="secondary" size="lg" href="https://thatshot.azurewebsites.net">
+                To the website
+              </Button>
+              <Button target="blank" variant="secondary" size="lg" href="https://github.com/jordy770/ThatShot">
+                To my Github
+              </Button>
           </Col>
         </Row>
       </Container>

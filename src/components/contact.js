@@ -41,17 +41,17 @@ class Contact extends Component {
                 <br />
                 <ul>
                   <li>
-                    <a href="https://codepen.io/jordy770/">
+                    <a target="blank" href="https://codepen.io/jordy770/">
                       <FontAwesomeIcon icon={["fab", "codepen"]} size="lg" />
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.linkedin.com/in/jordy-van-santen-b0a20851/">
+                    <a target="blank" href="https://www.linkedin.com/in/jordy-van-santen-b0a20851/">
                       <FontAwesomeIcon icon={["fab", "linkedin"]} size="lg" />
                     </a>
                   </li>
                   <li>
-                    <a href="https://github.com/jordy770/">
+                    <a target="blank" href="https://github.com/jordy770/">
                       <FontAwesomeIcon icon={["fab", "github"]} size="lg" />
                     </a>
                     <i class="fab fa-facebook-square" />

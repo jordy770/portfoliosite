@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import "./main.scss";
-import { Container, Row, Col, Image } from "react-bootstrap";
+import { Container, Row, Col, Image, Button } from "react-bootstrap";
 
 class Apigamesite extends Component {
   render() {
     return (
       <Container className="project-container">
-        <h1 className="project-title"> API & gamesite</h1>
+        <h2 className="project-title"> API & gamesite</h2>
         <Row>
           <Col>
             <div className="project-items">
@@ -62,6 +62,10 @@ class Apigamesite extends Component {
               the barrel over to single shot, and very carefully put a toxin
               dart through the center of a skyscraper canyon.
             </div>
+            
+              <Button target="blank" variant="secondary" size="lg" href="https://github.com/jordy770/gamesite">
+                To my Github
+              </Button>
           </Col>
         </Row>
       </Container>
