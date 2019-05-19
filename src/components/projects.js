@@ -26,10 +26,7 @@ class Projects extends Component {
                 className=" d-flex align-items-center"
               >
                 <div className="project-info">
-                  They were dropping, losing altitude in a canyon of rainbow
-                  foliage, a lurid communal mural that completely covered the
-                  hull of the bright void beyond the chain link. Still it was a
-                  handgun and nine rounds of ammunition
+                  Dit is een van me eerste projecten gemaakt tijdens mijn opleiding. 
                 </div>
               </Col>
             </Row>
@@ -56,16 +53,13 @@ class Projects extends Component {
                 className=" d-flex align-items-center"
               >
                 <div className="project-info">
-                  They were dropping, losing altitude in a canyon of rainbow
-                  foliage, a lurid communal mural that completely covered the
-                  hull of the bright void beyond the chain link. Still it was a
-                  handgun and nine rounds of ammunition
+                  Dit is een project waarbij ik een eigen gemaakte API koppel aan een eigen Vue site.
                 </div>
               </Col>
             </Row>
             <br />
             <div className="project-button">
-            <Link to="apigame">
+            <Link to="apigamesite">
               <Button variant="secondary" size="lg">
                 Click here!
               </Button>
@@ -86,10 +80,7 @@ class Projects extends Component {
                 className=" d-flex align-items-center"
               >
                 <div className="project-info">
-                  They were dropping, losing altitude in a canyon of rainbow
-                  foliage, a lurid communal mural that completely covered the
-                  hull of the bright void beyond the chain link. Still it was a
-                  handgun and nine rounds of ammunition
+                  Een CORS site, gemaakt doormiddel van .NET CORE MVC.
                 </div>
               </Col>
             </Row>
@@ -116,10 +107,7 @@ class Projects extends Component {
                 className=" d-flex align-items-center"
               >
                 <div className="project-info">
-                  They were dropping, losing altitude in a canyon of rainbow
-                  foliage, a lurid communal mural that completely covered the
-                  hull of the bright void beyond the chain link. Still it was a
-                  handgun and nine rounds of ammunition
+                  Dit is een project vanuit school. Deze app is gemaakt doormiddel van AndroidStudio.
                 </div>
               </Col>
             </Row>
@@ -146,10 +134,7 @@ class Projects extends Component {
                 className=" d-flex align-items-center"
               >
                 <div className="project-info">
-                  They were dropping, losing altitude in a canyon of rainbow
-                  foliage, a lurid communal mural that completely covered the
-                  hull of the bright void beyond the chain link. Still it was a
-                  handgun and nine rounds of ammunition
+                  Mijn eerste versie van mijn portfolio. Gemaakt in React.
                 </div>
               </Col>
             </Row>
@@ -176,10 +161,7 @@ class Projects extends Component {
                 className=" d-flex align-items-center"
               >
                 <div className="project-info">
-                  They were dropping, losing altitude in a canyon of rainbow
-                  foliage, a lurid communal mural that completely covered the
-                  hull of the bright void beyond the chain link. Still it was a
-                  handgun and nine rounds of ammunition
+                  Mijn tweede en huidige portfolio website. Onderandere ook gemaakt met React.
                 </div>
               </Col>
             </Row>
