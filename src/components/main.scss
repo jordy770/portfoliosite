@@ -140,7 +140,7 @@ body {
 
 }
 
-/* Project css */
+// ------------------- Projects page ------------------- 
 
 .project-page {
   h3{
@@ -221,7 +221,34 @@ body {
   cursor: ew-resize;
 }
 
-/* Contact page */
+.project-items{
+  color: rgba(255, 255, 255, 0.29);
+  border-radius: 2em !important;
+  margin: 5%; 
+  text-align: center;
+  // height: 5em;
+  
+}
+
+.project-container{
+  max-width: 80%;
+}
+
+.project-title{
+  color: #999;
+  text-align: center
+}
+
+.col-image{
+  text-align: center;
+}
+
+.project-image{
+  width: 50%;
+  text-align: center;
+}
+
+// ------------------- Content page ------------------- 
 .contact-container {
   max-width: 100%;
 }
