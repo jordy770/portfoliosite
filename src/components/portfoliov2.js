@@ -11,7 +11,8 @@ class Portfoliov2 extends Component {
         <Row>
           <Col sm={12} xl={6}>
             <div className="project-items">
-              Work in progress
+              PortfolioV2 is net als portfolioV1 gemaakt met react, omdat ik wist dat ik nog lang niet alles had uitgeprobeerd met React. Vandaar dat ik deze website ook met Reacty heb gemaakt.
+              In dit project heb ik veel verschillende addons toegevoegd om mijn portfolio een ervaring opzich zelf te maken en ik hoop dat dit gelukt is XD. 
             </div>
           </Col>
           <Col sm={12} xl={6} className="col-image">
@@ -24,13 +25,13 @@ class Portfoliov2 extends Component {
           </Col>
           <Col sm={12} xl={6}>
             <div className="project-items">
-            Links to
+            Links to:
             </div>
             <Button target="blank" variant="secondary" size="lg" href="https://jordyvs.nl">
-                To the website
+                The website
               </Button>
               <Button target="blank" variant="secondary" size="lg" href="https://github.com/jordy770/portfoliosite">
-                To my Github
+                My Github
               </Button>
             
             </Col>

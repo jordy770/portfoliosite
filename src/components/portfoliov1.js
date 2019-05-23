@@ -10,7 +10,7 @@ class Portfoliov1 extends Component {
         <Row>
           <Col sm={12} xl={6}>
             <div className="project-items">
-            Work in progress
+            Dit project was mijn eerste React project. Ik heb deze gemaakt in React, omdat ik het interessant vind om verschillende soorten van programmeren wil uitproberen en op deze manier. Mijn skills op deze manier uit te beiden. 
             </div>
           </Col>
           <Col sm={12} xl={6} className="col-image">
@@ -23,12 +23,12 @@ class Portfoliov1 extends Component {
           </Col>
           <Col sm={12} xl={6}>
             <div className="project-items">
-            Links to            </div>
+            Links to:            </div>
             <Button target="blank" variant="secondary" size="lg" href="https://portfolio-jordyvs.herokuapp.com">
-                To the website
+                The website
               </Button>
               <Button target="blank" variant="secondary" size="lg" href="https://github.com/jordy770/react-app">
-                To my Github
+                My Github
               </Button>
           </Col>
         </Row>

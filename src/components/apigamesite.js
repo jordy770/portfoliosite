@@ -10,7 +10,7 @@ class Apigamesite extends Component {
         <Row>
           <Col>
             <div className="project-items">
-            Work in progress
+              Voor dit project heb ik een eigen API opgezet doormiddel van MongoDB. Aan deze API zit een eigen gemaakte website die de gegeven van mijn API gebruiken. Doormiddel van deze website kan je ook extra informatie toevoegen, verwijderen en aanpassen.  
             </div>
           </Col>
           <Col className="col-image">

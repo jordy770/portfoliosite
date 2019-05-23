@@ -10,7 +10,10 @@ class Breakatniki extends Component {
         <Row>
           <Col sm={12} xl={6}>
             <div className="project-items">
-            Work in progress
+              Deze website heb ik gemaakt voor mijn tante. De website is geschreven in PHP en maakt gebruik van een SQL Database om bestellingen op te slaan.  
+              <br/>
+              De website maakt het mogelijk om een aantal hapjes te kunnen bestellen als klant. Deze gegevens worden daarna opgeslagen in een database. En kunnen worden bekeken door de Admin om deze mensen e.v.t. te benaderen voor een afspraak.
+      
             </div>
           </Col>
           <Col sm={12} xl={6} className="col-image">
@@ -23,7 +26,7 @@ class Breakatniki extends Component {
           </Col>
           <Col sm={12} xl={6}>
             <div className="project-items">
-            Links to            </div>
+            Links to:         </div>
             <Button target="blank" variant="secondary" size="lg" href="https://stud.hosted.hr.nl/0948653/projecten/webtante/">
                 To the website
               </Button>
