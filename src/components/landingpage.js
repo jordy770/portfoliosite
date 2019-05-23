@@ -15,6 +15,7 @@ class Landing extends Component {
               className="landing-header"
               avgTypingSpeed={40}
               startDelay={2000}
+              cursor
             >
               Welcome to my website
               <Typist.Backspace count={7} delay={1000} />
