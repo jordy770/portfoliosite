@@ -16,12 +16,12 @@ class Portfoliov2 extends Component {
             </div>
           </Col>
           <Col sm={12} xl={6} className="col-image">
-            <Image src="assets/portfoliov2.png" className="project-image" />
+            <Image src="assets/portfolio-v2.png" className="project-image" />
           </Col>
         </Row>
         <Row>
           <Col sm={12} xl={6} className="col-image">
-            <Image src="assets/portfoliov2.png" className="project-image" />
+            <Image src="assets/portfolio-v2.png" className="project-image" />
           </Col>
           <Col sm={12} xl={6}>
             <div className="project-items">
