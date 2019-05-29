@@ -11,8 +11,8 @@ class Portfoliov2 extends Component {
         <Row>
           <Col sm={12} xl={6}>
             <div className="project-items">
-              PortfolioV2 is net als portfolioV1 gemaakt met react, omdat ik wist dat ik nog lang niet alles had uitgeprobeerd met React. Vandaar dat ik deze website ook met Reacty heb gemaakt.
-              In dit project heb ik veel verschillende addons toegevoegd om mijn portfolio een ervaring opzich zelf te maken en ik hoop dat dit gelukt is XD. 
+              PortfolioV2 is net als portfolioV1 gemaakt met React, omdat ik wist dat ik nog lang niet alles had uitgeprobeerd met React. Vandaar dat ik deze website ook met React heb gemaakt.
+              In dit project heb ik veel verschillende libraries toegevoegd om mijn portfolio een ervaring opzich zelf te maken en ik hoop dat dit gelukt is. 
             </div>
           </Col>
           <Col sm={12} xl={6} className="col-image">
